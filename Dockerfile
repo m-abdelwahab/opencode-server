@@ -25,7 +25,7 @@ RUN curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | d
     && apt-get install -y gh \
     && rm -rf /var/lib/apt/lists/*
 
-RUN bun add -g opencode-ai@1.0.80
+RUN bun add -g opencode-ai@1.0.81
 
 # Set default git configuration
 # These can be overridden at runtime via environment variables
